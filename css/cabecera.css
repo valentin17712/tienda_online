@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+
+
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.contenedor-header{
+
+    width: 100%;
+    
+}
+
+.cabeceraContenedorPrincipal{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    border-bottom: 1px solid #dde3e8;
+    margin-left: 34.5px;
+    margin-right: 34.5px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+}
+
+
+.logo img{
+
+    height: 65px;
+    margin-top: 10px;
+
+}
+
+.logo img:hover{
+    height: 85px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+
+
+.block-search{
+
+
+    display: flex;
+    
+    
+    font-family: 'Heebo', sans-serif;
+
+}
+
+
+.search{
+        
+        border-radius: 2px;
+        width: 555px;
+        font-family: 'Heebo',sans-serif;
+        color: #636363;
+        font-weight: 700;
+        font-size: 12px;
+        padding-left: 10px;
+        height: 30px !important;
+        letter-spacing: 2px;
+        outline: none !important;
+        box-shadow: none !important;
+        line-height: 24px !important;
+        background-color: #fbfbfb;
+       
+        
+        
+    
+}
+
+.boton-search{
+
+    margin-left: 3px;
+    width: 45px;
+    height: 33px;
+    background-color: #00b2e3;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.boton-search img{
+    
+    height: 25px;
+    padding-top: 2px;
+
+}
+
+.iniciarSesion{
+    display: flex;
+    color: black;
+}
+
+.tag-sesion{
+
+    font-family: 'Heebo',sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: black;
+    cursor: pointer;
+    
+
+}
+
+.icono-sesion{
+
+    height: 20px;
+    padding-left: 5px;
+
+}
+
+.icono-sesion:hover{
+
+    height: 25px;
+    transition: all 300ms;
+    cursor: pointer;
+    
+
+}
+
+
+.carritoCompras a{
+    text-decoration: none;
+}
+
+
+.tag-carrito{
+    font-family: 'Heebo',sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: black;
+    cursor: pointer;
+}
+
+.icono-carrito{
+
+    height: 20px;
+    
+
+}
+
+
+.icono-carrito:hover{
+
+    height: 25px;
+    transition: all 300ms;
+    cursor: pointer;
+    
+
+}
+

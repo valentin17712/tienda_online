@@ -1,0 +1,72 @@
+.contenedor-producto{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 228px;
+    height: auto;
+    padding-top: 25px;
+
+}
+
+.enlace-producto{
+
+    text-decoration: none;
+
+
+}
+
+hr{
+    width: 220px;
+    margin-top: 8px !important;
+    border: 0;
+    border-top: 1px solid rgb(194, 193, 193);
+    margin-bottom: 20px;
+    
+}
+
+p{
+    font-family: 'Heebo';
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.precio-producto{
+
+    text-decoration: line-through;
+    color:gray;
+    font-size: 14px;
+}
+
+.precio-producto-descuento{
+
+    color: blue;
+    font-size: 16px;
+
+
+}
+
+
+.botonCompra{
+
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+    background: red !important;
+    color: white !important;
+    border-radius: 3px !important;
+    border-color: red !important;
+    font-weight: 600 !important;
+    font-size: 12px;
+    padding: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 200px;
+    margin-left: 25px;
+}
